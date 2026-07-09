@@ -37,7 +37,7 @@ const firebaseConfig = {
   const badge = document.getElementById("statusBadge");
 
   const gpioButtons = {
-    gpio1: document.getElementById("gpio1Btn"),
+    door: document.getElementById("gpio1Btn"),
     gpio2: document.getElementById("gpio2Btn"),
     gpio3: document.getElementById("gpio3Btn")
   };
