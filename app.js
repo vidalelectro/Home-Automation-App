@@ -43,7 +43,7 @@ const firebaseConfig = {
   };
 
   const gpioLabels = {
-    gpio1: document.getElementById("gpio1Status"),
+    door: document.getElementById("gpio1Status"),
     gpio2: document.getElementById("gpio2Status"),
     gpio3: document.getElementById("gpio3Status")
   };
