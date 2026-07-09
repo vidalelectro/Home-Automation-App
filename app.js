@@ -106,11 +106,11 @@ const firebaseConfig = {
 
     if (val === 1) {
       btn.classList.add("on");
-      lab.textContent = "Status: ON";
+      lab.textContent = "Status: OPEN";
       lab.style.color = "#9effae";
     } else {
       btn.classList.remove("on");
-      lab.textContent = "Status: OFF";
+      lab.textContent = "Status: CLOSED";
       lab.style.color = "#d1d1d1";
     }
   }
